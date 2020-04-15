@@ -1,6 +1,16 @@
-/*body{
-	background-color: gray;
-}*/
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('asset/font/webfont.eot'); /* IE9 Compat Modes */
+  src: url('asset/font/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('asset/font/webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('asset/font/webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('asset/font/webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('asset/font/webfont.woff2') format('svg'); /* Legacy iOS */
+}
+
+body{
+	font-family: 'MyWebFont', Fallback, sans-serif;
+}
 
 .jumbotronx{
 	 background-image: url(asset/carousel.jpg);
