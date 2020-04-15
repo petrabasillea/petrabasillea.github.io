@@ -2,12 +2,21 @@
 	background-color: gray;
 }*/
 
-.jumbotron{
+.jumbotronx{
 	 background-image: url(asset/carousel.jpg);
 	 background-size: cover;
 	 height: 500px;
 	 text-align: center;
 	 color: white;
+}
+
+.jumbotronz{
+	 background-image: url(asset/footer.jpg);
+	 background-size: cover;
+	 height: 250px;
+	 text-align: right;
+	 color: white;
+	 margin-bottom: 0px;
 }
 
 .pnll{
@@ -21,4 +30,10 @@
 
 .info-panel{
 	background-color: white;
+}
+
+.kaki{
+	font-size: 16px;
+	font-style: normal;
+	margin-top: 64px;
 }
