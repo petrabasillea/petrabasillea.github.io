@@ -34,8 +34,10 @@ body{
 	background-color: white;
 	/*border: 0 0 0 0;
 	box-shadow: 0 0 13px 12px;*/
+}
 
-
+.bbd{
+	border-radius: 0 0 0 0;
 }
 
 .info-panel{
