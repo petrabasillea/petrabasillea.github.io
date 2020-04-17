@@ -23,9 +23,10 @@ body{
 .jumbotronz{
 	 background-image: url(asset/footer.jpg);
 	 background-size: cover;
-	 height: 250px;
+	 height: 290px;
 	 text-align: right;
 	 color: white;
+	 margin-top: -15px;
 	 margin-bottom: 0px;
 }
 
